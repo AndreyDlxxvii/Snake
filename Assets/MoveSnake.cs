@@ -22,8 +22,7 @@ public class MoveSnake : MonoBehaviour
     {
         
         flag = false;
-        var temp = collision.collider.tag;
-        switch (temp)
+        switch (collision.collider.tag)
         {
             case "vertical":
                 var i = transform.rotation.eulerAngles.z;

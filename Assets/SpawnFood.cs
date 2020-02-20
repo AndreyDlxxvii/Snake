@@ -12,7 +12,7 @@ public class SpawnFood : MonoBehaviour
     public Transform horisontal_down;
     void Start()
     {
-        InvokeRepeating("Spawn", 0, 10);
+        InvokeRepeating("Spawn", 0, 1);
     }
 
    void Spawn ()
